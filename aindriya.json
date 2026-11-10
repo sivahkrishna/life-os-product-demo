@@ -1,0 +1,11 @@
+{
+  "ports": [
+    {
+      "path": "/api",
+      "port": 8000,
+      "cwd": "backend",
+      "cmd": "python3 -m uvicorn main:app --host 0.0.0.0 --port 8000 --reload"
+    }
+  ],
+  "persistentPaths": ["backend/uploads"]
+}

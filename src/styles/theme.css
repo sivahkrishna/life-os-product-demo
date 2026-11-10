@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+  --bg: #F5F6F9;
+  --surface: #FFFFFF;
+  --surface-muted: #F0F1F5;
+  --ink: #16181D;
+  --muted: #6B7280;
+  --border: #E6E8EE;
+
+  --primary: #4338CA;
+  --primary-ink: #FFFFFF;
+  --accent: #0D9488;
+  --accent-ink: #FFFFFF;
+
+  --success: #16A34A;
+  --success-ink: #FFFFFF;
+  --warning: #D97706;
+  --warning-ink: #FFFFFF;
+  --danger: #DC2626;
+  --danger-ink: #FFFFFF;
+
+  --radius: 1rem;
+  --font-display: 'Outfit';
+  --font-body: 'Inter';
+}

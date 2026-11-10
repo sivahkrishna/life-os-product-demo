@@ -1,0 +1,9 @@
+[file-api] ensureBackendsStarted (spec changed): supervising 1 backend port(s).
+[file-api] WS125: signaled master API for agent help (sessionId=cmwabx4fp0c1qjacdvfxve509, hints=["backend/"])
+[file-api] ensureBackendsStarted (performRestart): supervising 1 backend port(s).
+[file-api] ensureBackendsStarted (entry file appeared): supervising 1 backend port(s).
+[file-api] ensureBackendsStarted (performRestart): supervising 1 backend port(s).
+[file-api] WS137: backend :8000 exited (code 137) — auto-restart 1/6 in 1500ms
+[file-api] ensureBackendsStarted (performRestart): supervising 1 backend port(s).
+[file-api] ensureBackendsStarted (spec changed): supervising 1 backend port(s).
+[file-api] ensureBackendsStarted (coalesced): supervising 1 backend port(s).

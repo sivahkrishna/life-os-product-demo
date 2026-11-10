@@ -1,0 +1,47 @@
+{
+  "brand": "Life OS",
+  "archetype": "Bento Grid (adapted) — modular cards, one idea per tile, calm and organized",
+  "palette": {
+    "bg": "#F5F6F9",
+    "surface": "#FFFFFF",
+    "surfaceMuted": "#F0F1F5",
+    "ink": "#16181D",
+    "muted": "#6B7280",
+    "border": "#E6E8EE",
+    "primary": { "hex": "#4338CA", "on": "#FFFFFF", "use": "brand actions, active nav, primary CTAs" },
+    "accent": { "hex": "#0D9488", "on": "#FFFFFF", "use": "secondary highlights, habits/wellness domain" },
+    "success": { "hex": "#16A34A", "on": "#FFFFFF", "use": "income, completed, positive trend" },
+    "warning": { "hex": "#D97706", "on": "#FFFFFF", "use": "due soon, budget near limit" },
+    "danger": { "hex": "#DC2626", "on": "#FFFFFF", "use": "overdue, expense, over budget" }
+  },
+  "typography": {
+    "display": { "family": "Outfit", "weights": [500, 600, 700], "use": "H1-H3, stat numbers, nav brand" },
+    "body": { "family": "Inter", "weights": [400, 500, 600], "use": "body text, labels, table data" },
+    "scale": { "h1": "2.25rem", "h2": "1.5rem", "h3": "1.125rem", "body": "0.9375rem", "small": "0.8125rem" },
+    "googleFontsImport": "@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700&family=Inter:wght@400;500;600&display=swap');"
+  },
+  "spacing": { "unit": 8, "scale": [4, 8, 12, 16, 24, 32, 48, 64] },
+  "radius": { "sm": "0.5rem", "DEFAULT": "1rem", "lg": "1.25rem", "pill": "999px" },
+  "shadow": { "card": "0 1px 2px rgba(16,24,40,0.04), 0 1px 3px rgba(16,24,40,0.06)", "hover": "0 4px 12px rgba(16,24,40,0.08)" },
+  "layout": {
+    "sidebar": "persistent left sidebar, 240px, grouped nav (Overview / Plan / Money / Growth / Health / Schedule), brand lockup at top, user menu at bottom, collapses to a drawer under 1024px",
+    "dashboard": "bento grid: unequal-sized rounded tiles, each one metric or module summary — never a uniform 3-col grid of identical cards",
+    "dataPages": "sticky-header tables with search + filter + status badges on desktop, collapsing to stacked cards on mobile",
+    "forms": "create/edit in a right-side slide-over panel, sectioned, inline validation, destructive actions confirm"
+  },
+  "components": {
+    "statCard": "surface card, rounded-xl, border, label in muted small-caps, large display-font number, optional trend delta in success/danger",
+    "badge": "pill, 2px padding-y, semantic bg at 10% opacity + full-strength text of success/warning/danger/muted",
+    "button": "primary = bg-primary text-primary-ink rounded-lg; secondary = border border-border bg-surface text-ink; ghost = text-ink hover:bg-surfaceMuted",
+    "icons": "lucide-react, stroke-only, 18-20px, inline with text or left-aligned in nav — never inside a filled circle"
+  },
+  "imagery": "no photography needed for an internal productivity app — rely on type, color, and data visualization (recharts) for visual interest",
+  "antipatterns": [
+    "no emoji anywhere in the UI",
+    "no outline icon centered in a flat pastel circle",
+    "no sparkle/lightbulb/rocket decorative glyphs",
+    "no icon-prefixed eyebrow pills",
+    "no uniform grid of identical icon-circle feature cards",
+    "no AI/chat/assistant UI of any kind — this product has none"
+  ]
+}
