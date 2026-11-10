@@ -9,3 +9,4 @@ INFO:     127.0.0.1:50718 - "GET / HTTP/1.1" 404 Not Found
 INFO:     127.0.0.1:50718 - "GET / HTTP/1.1" 404 Not Found
 INFO:     127.0.0.1:50718 - "GET / HTTP/1.1" 404 Not Found
 INFO:     223.188.103.13:0 - "GET /api/settings/site HTTP/1.1" 200 OK
+INFO:     10.160.0.32:0 - "GET /api/settings/site HTTP/1.1" 200 OK
